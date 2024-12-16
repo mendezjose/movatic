@@ -2,8 +2,8 @@
 
 This project is the backend and frontend of the Movatic Coding Challenge Project which consists of the follwing:
 
-- A demo web application Gatsby/React.
-- A web server Flask/Pyhton.
+- A Gatsby/React web application .
+- A Flask/Pyhton web server.
 
 ## Scenario
 
@@ -20,8 +20,18 @@ developed to be easily extendable in the future.
 
 To run this project, you need to install the latest version of Docker first.
 
-https://docs.mongodb.com/manual/installation/
+https://docs.docker.com/compose/install/
 
-Once you install Docker, all you need to do is to run the folllwing command:
+### Run the Project
+
+Once you install Docker, all you need to do is to run the following command:
 
     docker-compose up
+
+This will launch the Flask server on port 3000. You should see the list of stations. That confirms that you have set up everything successfully.
+
+Backend -> http://localhost:3000/
+
+Finally, to see web app running, open up your browser and head over to:
+
+Frontend -> http://localhost:8000/
