@@ -1,0 +1,35 @@
+{
+  "name": "movatic-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "movatic-website",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop -H 0.0.0.0 -p 8000",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fontsource/roboto": "^5.1.0",
+    "autoprefixer": "^10.4.20",
+    "gatsby": "^5.14.0",
+    "gatsby-plugin-postcss": "^6.14.0",
+    "postcss": "^8.4.49",
+    "react": "^18.2.0",
+    "react-cookie": "^7.2.2",
+    "react-data-table-component": "^7.6.2",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.4.16"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "typescript": "^5.3.3"
+  }
+}
