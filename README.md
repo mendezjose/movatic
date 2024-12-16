@@ -1,6 +1,6 @@
 ## Introduction
 
-This project is the backend and frontend of the Movatic Coding Challenge Project which consists of the follwing:
+This project is the backend and frontend of the Movatic Coding Challenge Project which consists of the following:
 
 - A Gatsby/React web application .
 - A Flask/Pyhton web server.
@@ -32,6 +32,6 @@ This will launch the Flask server on port 3000. You should see the list of stati
 
 Backend -> http://localhost:3000/
 
-Finally, to see web app running, open up your browser and head over to:
+And finally, to the see web app running, open up your browser and head over to:
 
 Frontend -> http://localhost:8000/
